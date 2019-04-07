@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'game_of_thronesregular';
+	src: url('./fonts/game_of_thrones-webfont.woff2'),
+			 url('./fonts/game_of_thrones-webfont.woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body { 
+	background: url(../images/Iron_throne.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'game_of_thronesregular';
+	
+}
+
+html {
+	cursor: url(../images/Sword2.png), auto;
+}
+
+h1,
+h2,
+h3 {
+	color: white;
+	padding: 25px;
+	text-shadow: 2px 2px goldenrod;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: black;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: goldenrod;
+	color: white;
+}
+
+#gameScreen {
+	-webkit-box-shadow: 7px 5px 47px 0px goldenrod(255,0,0,0.76);
+	-moz-box-shadow: 7px 5px 47px 0px goldenrod(255,0,0,0.76);
+	box-shadow: 7px 5px 47px 0px goldenrod(255,0,0,0.76);
+}
+
+.shadow {
+	-webkit-box-shadow: -7px 6px 5px -1px goldenrod(255,0,0,0.79);
+	-moz-box-shadow: -7px 6px 5px -1px goldenrod(255,0,0,0.79);
+	box-shadow: -7px 6px 5px -1px goldenrod(255,0,0,0.79);
+}
+
+.pic-resize{
+	max-width: 500px;
+	height: auto;
+}
