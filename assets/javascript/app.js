@@ -104,14 +104,14 @@ $(document).ready(function() {
         "<img src='assets/images/sansa.jpg' class='img-circle shadow pic-resize'>"
     },
     {
-      question: "What is Jon Snow's real name??",
+      question: "What is Jon Snow's real name?",
       choices: ["Jon", "Aerys", "Aegon", "Rhaegar"],
       correctAnswer: "Aegon",
       image:
         "<img src='assets/images/Aegon.jpg' class='img-circle shadow pic-resize'>"
     },
     {
-      question: "Whose court does Tyrion Lannister ultimately join??",
+      question: "Whose court does Tyrion Lannister ultimately join?",
       choices: [
         "Daenerys Targaryen",
         "Robb Stark",
